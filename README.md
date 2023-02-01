@@ -1,9 +1,9 @@
-<h1 align="center">Hello world 👋, I'm Prasad Subrahmanya</h1>
+<h1 align="center">Hello world 👋, I am Prasad Subrahmanya</h1>
 <h3 align="center">CTO @ Founder's Studio🌟</h3>
 
 <br>
 
-<p align="right"> <h3>Profile Views :-</h3> <img src="https://komarev.com/ghpvc/?username=prasadus92&label=Profile%20views&color=0e75b6&style=flat"
+<p align="right"> <h3>Profile Views :</h3> <img src="https://komarev.com/ghpvc/?username=prasadus92&label=Profile%20views&color=0e75b6&style=flat"
     alt="prasadus92" /> 
   </p>
 
@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **prasadus92@gmail.com**
 
-- ⚡ Fun fact :- Die hard Batman fan. Hope to build Batmobile one day!
+- ⚡ Fun fact : Die hard Batman fan. Hope to build Batmobile one day!
 
 <br>
 
@@ -27,7 +27,7 @@
 
 <br>
 
-<h3>Statistical Data :-</h3>
+<h3>Statistical Data :</h3>
 <p><img align="center"
     src="https://github-readme-stats.vercel.app/api/top-langs?username=prasadus92&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
     alt="prasadus92" 
