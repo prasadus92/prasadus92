@@ -10,7 +10,7 @@
 <br>
 
 
-- 🌱 I’m currently working on Django, CubeJS, React, Snowflake, Airflow, DBT, Kubernetes
+- 🌱 I’m currently working with Django, CubeJS, React, Snowflake, Airflow, DBT, Kubernetes
 
 - 📫 How to reach me **prasadus92@gmail.com**
 
