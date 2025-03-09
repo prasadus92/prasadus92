@@ -1,5 +1,5 @@
 <h1 align="center">Hello world 👋, I am Prasad Subrahmanya</h1>
-<h3 align="center">CTO @ Founder's Studio🌟</h3>
+<h3 align="center">Founder & CEO @ Luminik 🌟</h3>
 
 <br>
 
