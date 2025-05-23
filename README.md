@@ -1,4 +1,4 @@
-<h1 align="center">Hello world 👋, I am Prasad Subrahmanya</h1>
+<h1 align="center">Hello world 👋 I am Prasad Subrahmanya</h1>
 <h3 align="center">Founder & CEO @ Luminik 🌟</h3>
 
 <br>
@@ -10,7 +10,7 @@
 <br>
 
 
-- 🌱 I’m currently working with Django, CubeJS, React, Snowflake, Airflow, DBT, Kubernetes
+- 🌱 I’m currently working with Next.js, Pythin, FastAPI, LLMs, Evals
 
 - 📫 How to reach me **prasadus92@gmail.com**
 
@@ -24,14 +24,6 @@
       src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
       alt="Prasad Subrahmanya" height="30" width="40" /></a>
 </p>
-
-<br>
-
-<h3>Statistical Data :</h3>
-<p><img align="center"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=prasadus92&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
-    alt="prasadus92" 
-    bg_color=#808080/></p>
 
 <br>
 
