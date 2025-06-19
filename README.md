@@ -10,7 +10,7 @@
 <br>
 
 
-- 🌱 I’m currently working with Next.js, Pythin, FastAPI, LLMs, Evals
+- 🌱 I’m currently working with Next.js, Python, FastAPI, LLMs, Evals
 
 - 📫 How to reach me **prasadus92@gmail.com**
 
