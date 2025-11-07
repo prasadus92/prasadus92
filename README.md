@@ -25,13 +25,4 @@
       alt="Prasad Subrahmanya" height="30" width="40" /></a>
 </p>
 
-<br>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=prasadus92&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
-    alt="prasadus92" /></p>
-
-<br>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prasadus92&theme=dark&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" alt="prasadus92" /></p>
-
 [Prasad Subrahmanya](https://github.com/prasadus92/)
