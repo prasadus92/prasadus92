@@ -1,28 +1,23 @@
-<h1 align="center">Hello world 👋 I am Prasad Subrahmanya</h1>
-<h3 align="center">Founder & CEO @ Luminik 🌟</h3>
+## Prasad Subrahmanya
 
-<br>
+I build things. Then I talk to people. Then I find the real problem.
 
-<p align="right"> <h3>Profile Views :</h3> <img src="https://komarev.com/ghpvc/?username=prasadus92&label=Profile%20views&color=0e75b6&style=flat"
-    alt="prasadus92" /> 
-  </p>
+That's how [Luminik](https://luminik.io) started. I was building [SnowOptix](https://snowoptix.com) — a tool to cut Snowflake costs — and kept hearing the same story from GTM leaders: event marketing eats 30% of their budget, and their teams are drowning in spreadsheets, disconnected tools, and manual follow-ups.
 
-<br>
+So I built an AI co-pilot to fix that.
 
+Before this, I built Aura at Bain — a PE due diligence platform. Zero to $3.6M revenue in 18 months. Learned that the best products come from watching people struggle, not from imagining what they need.
 
-- 🌱 I’m currently working with Next.js, Python, FastAPI, LLMs, Evals
+### The stack
 
-- 📫 How to reach me **prasadus92@gmail.com**
+Python, FastAPI, Next.js, LLMs, evals. I like tools that stay out of the way.
 
-- ⚡ Fun fact : Die hard Batman fan. Hope to build Batmobile one day!
+### Elsewhere
 
-<br>
+- [Website](https://prasad.tech)
+- [LinkedIn](https://www.linkedin.com/in/prasadus/)
+- prasadus92@gmail.com
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/prasadus/" target="blank"><img align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-      alt="Prasad Subrahmanya" height="30" width="40" /></a>
-</p>
+---
 
-[Prasad Subrahmanya](https://github.com/prasadus92/)
+*Batman taught me that preparation beats superpowers. The Batmobile is still on the roadmap.*
