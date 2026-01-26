@@ -1,6 +1,6 @@
 ## Prasad Subrahmanya
 
-Building [Luminik](https://luminik.com).
+Building [Luminik](https://luminik.io).
 
 I write software that thinks. Currently deep in the weeds of LLMs, evals, and making AI actually useful—not just impressive.
 
