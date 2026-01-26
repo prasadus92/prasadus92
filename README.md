@@ -15,14 +15,14 @@ Event teams spend 30% of marketing budgets on conferences and trade shows. Then 
 ### Track record
 
 - **Aura** (Bain) — PE due diligence platform. Zero to $3.6M ARR in 18 months.
-- **[SnowOptix](https://snowoptix.com)** — Snowflake cost optimization. Bootstrapped. Used by McKinsey.
+- **[SnowOptix](https://snowoptix.com)** — Snowflake cost optimization. Bootstrapped. Used by a top-3 global consulting firm.
 - **Mainteny** — Co-founded. Raised $2.7M seed in Europe.
 
 ### The work
 
 Python, FastAPI, Next.js, LLMs, evals.
 
-I've shipped software for 10+ years. But the code is the easy part. Finding people who pay is the hard part.
+I've shipped software for 12+ years. But the code is the easy part. Finding people who pay is the hard part.
 
 ### Elsewhere
 
