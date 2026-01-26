@@ -1,28 +1,24 @@
-<h1 align="center">Hello world 👋 I am Prasad Subrahmanya</h1>
-<h3 align="center">Founder & CEO @ Luminik 🌟</h3>
+## Prasad Subrahmanya
 
-<br>
+Building [Luminik](https://luminik.com).
 
-<p align="right"> <h3>Profile Views :</h3> <img src="https://komarev.com/ghpvc/?username=prasadus92&label=Profile%20views&color=0e75b6&style=flat"
-    alt="prasadus92" /> 
-  </p>
+I write software that thinks. Currently deep in the weeds of LLMs, evals, and making AI actually useful—not just impressive.
 
-<br>
+The stack I reach for: Python, FastAPI, Next.js. Simple tools, compounding results.
 
+### What I believe
 
-- 🌱 I’m currently working with Next.js, Python, FastAPI, LLMs, Evals
+Most software is built to impress. The best software disappears—it just works.
 
-- 📫 How to reach me **prasadus92@gmail.com**
+The same principle applies to AI. We don't need models that dazzle in demos. We need systems that quietly solve problems while you sleep.
 
-- ⚡ Fun fact : Die hard Batman fan. Hope to build Batmobile one day!
+That's what I'm building.
 
-<br>
+### Elsewhere
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/prasadus/" target="blank"><img align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-      alt="Prasad Subrahmanya" height="30" width="40" /></a>
-</p>
+- [LinkedIn](https://www.linkedin.com/in/prasadus/)
+- prasadus92@gmail.com
 
-[Prasad Subrahmanya](https://github.com/prasadus92/)
+---
+
+*Batman taught me that preparation beats superpowers. The Batmobile project is still on the roadmap.*
