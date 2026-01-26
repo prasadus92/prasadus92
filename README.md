@@ -1,24 +1,23 @@
 ## Prasad Subrahmanya
 
-Building [Luminik](https://luminik.io).
+I build things. Then I talk to people. Then I find the real problem.
 
-I write software that thinks. Currently deep in the weeds of LLMs, evals, and making AI actually useful—not just impressive.
+That's how [Luminik](https://luminik.io) started. I was building [SnowOptix](https://snowoptix.com) — a tool to cut Snowflake costs — and kept hearing the same story from GTM leaders: event marketing eats 30% of their budget, and their teams are drowning in spreadsheets, disconnected tools, and manual follow-ups.
 
-The stack I reach for: Python, FastAPI, Next.js. Simple tools, compounding results.
+So I built an AI co-pilot to fix that.
 
-### What I believe
+Before this, I built Aura at Bain — a PE due diligence platform. Zero to $3.6M revenue in 18 months. Learned that the best products come from watching people struggle, not from imagining what they need.
 
-Most software is built to impress. The best software disappears—it just works.
+### The stack
 
-The same principle applies to AI. We don't need models that dazzle in demos. We need systems that quietly solve problems while you sleep.
-
-That's what I'm building.
+Python, FastAPI, Next.js, LLMs, evals. I like tools that stay out of the way.
 
 ### Elsewhere
 
+- [Website](https://prasad.tech)
 - [LinkedIn](https://www.linkedin.com/in/prasadus/)
 - prasadus92@gmail.com
 
 ---
 
-*Batman taught me that preparation beats superpowers. The Batmobile project is still on the roadmap.*
+*Batman taught me that preparation beats superpowers. The Batmobile is still on the roadmap.*
