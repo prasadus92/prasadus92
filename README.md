@@ -1,32 +1,28 @@
 ## Prasad Subrahmanya
 
-Founder. Engineer by training. Salesman by necessity.
+Founder, [Luminik](https://luminik.io). 12 years shipping software. Based in Oslo.
 
-I used to think sales was a numbers game. I was wrong. Sales is about people. Learning this changed everything.
-
-Now I sell before I build. If no one pays, I don't write a line of code.
+I sell first, then build. No customers, no code.
 
 ### What I'm building
 
-**[Luminik](https://luminik.io)** — AI for event marketers. Revenue generating. Bootstrapped.
+**[Luminik](https://luminik.io)** — AI for event marketers. Bootstrapped. Revenue generating.
 
-Event teams spend 30% of marketing budgets on conferences and trade shows. Then they drown in spreadsheets, manual follow-ups, and disconnected tools. Luminik fixes that.
+Event teams spend 30% of marketing budgets on trade shows and conferences. Then drown in spreadsheets and manual follow-ups. Luminik handles the busywork.
 
 ### Track record
 
-- **Aura** (Bain) — PE due diligence platform. Zero to $3.6M ARR in 18 months.
+- **Aura** (Bain Founder's Studio) — PE due diligence platform. 0 to $3.6M ARR, 18 months.
 - **[SnowOptix](https://snowoptix.com)** — Snowflake cost optimization. Bootstrapped. Used by a top-3 global consulting firm.
-- **Mainteny** — Co-founded. Raised $2.7M seed in Europe.
+- **Mainteny** — Co-founded. $2.7M seed, Europe.
 
-### The work
+### Stack
 
 Python, FastAPI, Next.js, LLMs, evals.
 
-I've shipped software for 12+ years. But the code is the easy part. Finding people who pay is the hard part.
+### Links
 
-### Elsewhere
-
-[prasad.tech](https://prasad.tech) ・ [LinkedIn](https://www.linkedin.com/in/prasadus/) ・ prasadus92@gmail.com
+[prasad.tech](https://prasad.tech) ・ [LinkedIn](https://www.linkedin.com/in/prasadus/)
 
 ---
 
