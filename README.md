@@ -24,12 +24,12 @@ A couple of outcomes from our customers:
 
 - **Aura** at Bain Founder's Studio: a PE due-diligence platform. Took it from 0 to $3.6M ARR in 18 months. The team grew from five engineers to thirty-three over the same window.
 - **Mainteny**: co-founded. $2.7M seed, European field-services SaaS.
-- **[SnowOptix](https://snowoptix.com)**: Snowflake cost-optimisation tool. Bootstrapped, used by a top-3 global consulting firm.
+- **SnowOptix**: Snowflake cost-optimisation tool. Bootstrapped, used by a top-3 global consulting firm.
 - **BlueJeans** (started 2014): backend engineer on the video conferencing team. Where I first watched a real engineering org coordinate, before I had to do it myself with no team to lean on.
 
 ## How the work actually happens
 
-A small team of agents, named after Batman side-characters, handles the recurring engineering work for Luminik. Each one is shaped around a specific job and operates under a contract for what it can decide alone and what comes through me.
+A dedicated team of agents, named after Batman side-characters, handles the recurring engineering work for Luminik. Each one is shaped around a specific job and operates under a contract for what it can decide alone and what comes through me.
 
 | Codename       | Role                                          | Trigger                  |
 |----------------|-----------------------------------------------|--------------------------|
@@ -72,7 +72,7 @@ Long-form on solo building, agent infrastructure, encoding judgment for AI tooli
 | Mobile                | Expo · React Native                                         |
 | Data and integrations | Python workers · Nango · Apollo · Salesforce · HubSpot      |
 | AI / agent loop       | Claude Code · Gemini Flash · Hermes Agent · gbrain · MCP    |
-| Writing               | Jekyll (prasad.tech) · CLAUDE.md spec discipline            |
+| Writing               | Astro (prasad.tech) · CLAUDE.md spec discipline            |
 
 ## Where to find me
 
