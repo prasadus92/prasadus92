@@ -40,9 +40,9 @@ A dedicated team of agents, named after Batman side-characters, handles the recu
 | Ra's al Ghul   | PR review (correctness, security, integrity)  | PR opened                |
 | Bat-Signal     | Slack notifier, relay only                    | Called by other agents   |
 
-The stack is open source: Hermes Agent (Nous Research) drives the orchestration loop on free Gemini Flash, Claude Code handles real coding work via ACP, and a local gbrain (Garry Tan) instance holds a 107-page knowledge base of specs and CLAUDE.md files queryable from anywhere on the box. The whole thing runs on a Mac Mini.
+The orchestration framework is one I built and open-sourced. [**Alfred OS**](https://github.com/luminik-io/alfred-os) schedules the fleet, claims one issue at a time so two agents never pick up the same work, isolates every run in its own git worktree, and gates what an agent is allowed to merge without me. Around it: Claude Code does the actual coding via ACP, Hermes Agent (Nous Research) provides the platform layer, and a local gbrain (Garry Tan) instance holds a 107-page knowledge base of specs and CLAUDE.md files queryable from anywhere on the box. The whole thing runs on a Mac Mini.
 
-Full write-up: [*Building Toward a Team of Digital Employees on a Mac Mini*](https://prasad.tech/blog/dedicated-mac-mini-solo-startup.html).
+Full write-up: [*Building Toward a Team of Digital Employees on a Mac Mini*](https://prasad.tech/blog/dedicated-mac-mini-solo-startup.html). Alfred OS itself is documented at [alfred.luminik.io](https://alfred.luminik.io).
 
 ## Recent open source contributions
 
@@ -71,7 +71,7 @@ Long-form on solo building, agent infrastructure, encoding judgment for AI tooli
 | Frontend              | React · TypeScript · Vite · Tailwind                        |
 | Mobile                | Expo · React Native                                         |
 | Data and integrations | Python workers · Nango · Apollo · Salesforce · HubSpot      |
-| AI / agent loop       | Claude Code · Gemini Flash · Hermes Agent · gbrain · MCP    |
+| AI / agent loop       | Alfred OS (mine) · Claude Code · Gemini Flash · Hermes Agent · gbrain · MCP |
 | Writing               | Astro (prasad.tech) · CLAUDE.md spec discipline            |
 
 ## Where to find me
