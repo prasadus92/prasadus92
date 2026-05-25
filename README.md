@@ -2,10 +2,11 @@
 
 # Prasad Subrahmanya
 
-**Founder** · [Luminik](https://luminik.io)
-12 years shipping software · Based in Oslo · Building solo
+**Builder and operator** · Founder of [Luminik](https://www.luminik.io)
 
-[prasad.tech](https://prasad.tech) · [LinkedIn](https://linkedin.com/in/prasadus) · [prasadus92@gmail.com](mailto:prasadus92@gmail.com)
+12+ years shipping software · Oslo · B2B products · engineering leadership · founder-led sales
+
+[prasad.tech](https://prasad.tech) · [LinkedIn](https://linkedin.com/in/prasadus) · [Email](mailto:prasadus92@gmail.com)
 
 </div>
 
@@ -13,77 +14,80 @@
 
 ## What I'm building now
 
-[**Luminik**](https://luminik.io) helps B2B sales and marketing teams turn the events they attend (RSA, Black Hat, Money20/20, fintech summits) into pipeline. Bootstrapped, live with paying customers. I am the only full-time person on the team.
+[**Luminik**](https://www.luminik.io) is an event pipeline platform for B2B teams. It helps sales and marketing teams connect attendee sourcing, enrichment, sequencing, capture, and attribution in the systems they already use.
 
-A couple of outcomes from our customers:
+I am building the company hands-on: product, engineering, early sales, customer work, and the operating cadence around it. My bias is to sell before building, work alongside customers, and build repeated workflows into product.
 
-- A Series C cybersecurity company attributed $2.4M of pipeline to RSA, Black Hat, and one regional summit, sourced and sequenced through Luminik.
-- A Series A identity verification company attributed $2M across fifteen fintech events in the second half of 2025.
+The public engineering side of that work is [**Alfred OS**](https://github.com/luminik-io/alfred-os), an open-source runner for Claude Code and Codex tasks in isolated git worktrees.
 
 ## What I've shipped before
 
-- **Aura** at Bain Founder's Studio: a PE due-diligence platform. Took it from 0 to $3.6M ARR in 18 months. The team grew from five engineers to thirty-three over the same window.
-- **Mainteny**: co-founded. $2.7M seed, European field-services SaaS.
-- **SnowOptix**: Snowflake cost-optimisation tool. Bootstrapped, used by a top-3 global consulting firm.
-- **BlueJeans** (started 2014): backend engineer on the video conferencing team. Where I first watched a real engineering org coordinate, before I had to do it myself with no team to lean on.
+- **Aura at Bain Founder's Studio**: PE due-diligence software. Took it from 0 to `$3.6M ARR` in `18 months` while the engineering team grew from five to thirty-three.
+- **Mainteny**: co-founded the European field-service SaaS company. Built the initial product, worked directly with early customers, helped raise a `$2.7M seed`, and helped build a high-performing product and engineering team.
+- **SnowOptix**: Snowflake cost-optimization work that entered Snowflake's Native App Accelerator and led to the customer discovery that became Luminik.
+- **BlueJeans**: backend engineer on video conferencing, starting in 2014. My first deep exposure to a scaled engineering organization.
 
-## How the work actually happens
+## How I work
 
-A dedicated team of agents, named after Batman side-characters, handles the recurring engineering work for Luminik. Each one is shaped around a specific job and operates under a contract for what it can decide alone and what comes through me.
+I like work where the distance between customer conversation, product decision, and shipped code is short. I have led teams as they grew from founding groups into larger engineering orgs. The parts I care about are clear ownership, direct customer context, strong engineering standards, and a steady product rhythm.
 
-| Codename       | Role                                          | Trigger                  |
-|----------------|-----------------------------------------------|--------------------------|
-| Lucius         | Feature development, one repo at a time       | `agent:implement` label  |
-| Alfred         | Cross-repo coordinator                        | `agent:cross-repo` label |
-| Bane           | Test coverage (max one PR per run)            | Daily cron               |
-| Oracle         | Staging monitor (escalates above threshold)   | Daily 06:00 UTC          |
-| Ra's al Ghul   | PR review (correctness, security, integrity)  | PR opened                |
-| Bat-Signal     | Slack notifier, relay only                    | Called by other agents   |
+At Luminik, I stay close to the product and the sales work while using agents for bounded engineering and operations tasks. They help with repository checks, tests, summaries, and draft engineering changes. I decide product direction, review what ships, and handle customer commitments myself.
 
-The orchestration framework is one I built and open-sourced. [**Alfred OS**](https://github.com/luminik-io/alfred-os) schedules the fleet, claims one issue at a time so two agents never pick up the same work, isolates every run in its own git worktree, and gates what an agent is allowed to merge without me. Around it: Claude Code does the actual coding via ACP, Hermes Agent (Nous Research) provides the platform layer, and a local gbrain (Garry Tan) instance holds a 107-page knowledge base of specs and CLAUDE.md files queryable from anywhere on the box. The whole thing runs on a Mac Mini.
+| Area | What I stay close to |
+| --- | --- |
+| Product | Customer workflows, product shape, architecture, and release quality. |
+| Sales | Founder-led discovery, objections, onboarding, and buyer follow-up. |
+| Team building | Hiring, standards, ownership, operating cadence, and technical direction. |
+| Agents | Scoped branches, checks, summaries, and review discipline. |
+| Writing | Public notes on product, sales, agent infrastructure, and zero-to-one work. |
 
-Full write-up: [*Building Toward a Team of Digital Employees on a Mac Mini*](https://prasad.tech/blog/dedicated-mac-mini-solo-startup.html). Alfred OS itself is documented at [alfred.luminik.io](https://alfred.luminik.io).
+## Public work
 
-## Recent open source contributions
+- [**Alfred OS**](https://github.com/luminik-io/alfred-os): open-source runner for Claude Code and Codex tasks in separate git worktrees.
+- [**prasad.tech**](https://prasad.tech): writing on solo technical founding, founder-led sales, agent workflows, event pipeline systems, and zero-to-one product work.
+- [**Luminik site**](https://www.luminik.io): public company site for the event pipeline platform.
 
-While setting up the agent stack, three things were broken or badly defaulted in tools I depended on. All in public trackers.
+## Recent open source work
 
-- [**Hermes Agent #12251**](https://github.com/NousResearch/hermes-agent/pull/12251). Gemini auth regression after the project switched Google AI Studio auth from `Bearer` to `x-goog-api-key`. I isolated the repro on the live `/v1beta/openai` endpoint, and the maintainer landed a clean superseding fix the same day. *Merged.*
-- [**Hermes Agent #12224**](https://github.com/NousResearch/hermes-agent/issues/12224). The WhatsApp `PLATFORM_HINT` told every model "WhatsApp does not render markdown" and silently overrode persona files. WhatsApp does support `*bold*`, `_italic_`, `~strike~`, code, fenced blocks, and bullet lists. *Open.*
-- [**gbrain #89**](https://github.com/garrytan/gbrain/pull/89). v0.12.0 hardcodes OpenAI embeddings, which silently undoes the zero-marginal-cost story for anyone running Gemini elsewhere. Confirmed the community Gemini-embedding patch on the same 107-page corpus and left a +1 with a repro. *Open.*
+While setting up the agent stack, I contributed fixes and repros to tools I depend on.
+
+- [**Hermes Agent #12251**](https://github.com/NousResearch/hermes-agent/pull/12251): contributed the Gemini auth regression repro and fix path.
+- [**Hermes Agent #12224**](https://github.com/NousResearch/hermes-agent/issues/12224): contributed the WhatsApp formatting issue and expected behavior.
+- [**gbrain #89**](https://github.com/garrytan/gbrain/pull/89): contributed testing notes on Gemini embedding support.
 
 ## Recent writing
 
-Long-form on solo building, agent infrastructure, encoding judgment for AI tooling, and what coordination looks like when you are the team.
+Long-form notes on solo technical founding, founder-led sales, agent workflows, and zero-to-one product work.
 
-- [*Building Toward a Team of Digital Employees on a Mac Mini*](https://prasad.tech/blog/dedicated-mac-mini-solo-startup.html). Hermes Agent + Claude Code via ACP + gbrain, three upstream bugs filed along the way.
-- [*gstack, CLAUDE.md, and the Work That Frameworks Don't Cover*](https://prasad.tech/blog/gstack-solo-builder.html). Where in-repo instruction files stop, and cross-session memory needs to start.
-- [*What It Actually Costs to Build a Serious Product Alone in 2026*](https://prasad.tech/blog/building-alone-in-2026.html). The cost structure of compressing a team into one desk.
-- [*Building a $3.6M ARR Product Inside a Consulting Firm*](https://prasad.tech/blog/zero-to-one-bain.html). The Aura story, five engineers to thirty-three.
+- [**Alfred: how I run repeated work as a solo founder**](https://prasad.tech/blog/alfred-solo-founder-operating-system.html)
+- [**Separating agent work from founder work**](https://prasad.tech/blog/dedicated-mac-mini-solo-startup.html)
+- [**gstack, CLAUDE.md, and founder coordination**](https://prasad.tech/blog/gstack-solo-builder.html)
+- [**Technical founders sell through diagnosis**](https://prasad.tech/blog/technical-founder-sales.html)
+- [**Selling the workflow before the software**](https://prasad.tech/blog/selling-before-building.html)
+- [**Mainteny's first version took three months**](https://prasad.tech/blog/mvp-three-months.html)
+- [**What fundraising asks of a CTO**](https://prasad.tech/blog/raising-seed-round.html)
+- [**Event ROI is a handoff problem**](https://prasad.tech/blog/event-marketing-roi.html)
+- [**SnowOptix: the side project that led to Luminik**](https://prasad.tech/blog/snowflake-cost-optimization.html)
+- [**The real cost of solo product engineering in 2026**](https://prasad.tech/blog/building-alone-in-2026.html)
+- [**Building a $3.6M ARR product inside Bain**](https://prasad.tech/blog/zero-to-one-bain.html)
 
-[All posts at prasad.tech](https://prasad.tech).
+[All posts at prasad.tech](https://prasad.tech/blog/)
 
-## Stack
+## Stack I use often
 
-| Layer                 | What I use                                                  |
-|-----------------------|-------------------------------------------------------------|
-| Backend               | Kotlin · Quarkus · Postgres · AWS ECS                       |
-| Frontend              | React · TypeScript · Vite · Tailwind                        |
-| Mobile                | Expo · React Native                                         |
-| Data and integrations | Python workers · Nango · Apollo · Salesforce · HubSpot      |
-| AI / agent loop       | Alfred OS (mine) · Claude Code · Gemini Flash · Hermes Agent · gbrain · MCP |
-| Writing               | Astro (prasad.tech) · CLAUDE.md spec discipline            |
+| Layer | Tools |
+| --- | --- |
+| Backend | Kotlin, Quarkus, Postgres, AWS ECS |
+| Frontend | React, TypeScript, Vite, Astro |
+| Mobile | Expo, React Native |
+| Data and integrations | Python, Nango, CRM and sequencing integrations |
+| AI and agents | Alfred OS, Claude Code, Codex, OpenAI Agents SDK, Vercel AI SDK, Langfuse, RAG, memory |
+| Workflow orchestration | Temporal, GitHub Actions, specs, branch isolation, release checks |
+| Leadership and operating | Hiring, product planning, customer discovery, team cadence, technical direction |
+| Writing | Technical essays, product notes, operator docs |
 
-## Where to find me
+## Contact
 
-[**LinkedIn**](https://linkedin.com/in/prasadus) · [**prasad.tech**](https://prasad.tech) · [prasadus92@gmail.com](mailto:prasadus92@gmail.com)
+[LinkedIn](https://linkedin.com/in/prasadus) · [prasad.tech](https://prasad.tech) · [prasadus92@gmail.com](mailto:prasadus92@gmail.com)
 
-For Luminik specifically: [luminik.io](https://luminik.io).
-
----
-
-<div align="center">
-
-*Batman taught me preparation beats superpowers. The Batmobile is not on the Luminik roadmap, but the codenames suggest otherwise.*
-
-</div>
+For Luminik: [luminik.io](https://www.luminik.io)
