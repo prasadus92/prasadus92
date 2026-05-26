@@ -2,7 +2,7 @@
 
 # Prasad Subrahmanya
 
-**Builder and operator** · Founder of [Luminik](https://www.luminik.io)
+**Builder and operator** · Building [Luminik](https://www.luminik.io)
 
 12+ years shipping software · Oslo · B2B products · engineering leadership · founder-led sales
 
@@ -51,7 +51,7 @@ At Luminik, I stay close to the product and the sales work while using agents fo
 
 While setting up the agent stack, I contributed fixes and repros to tools I depend on.
 
-- [**Hermes Agent #12251**](https://github.com/NousResearch/hermes-agent/pull/12251): contributed the Gemini auth regression repro and fix path.
+- [**Hermes Agent #12251**](https://github.com/NousResearch/hermes-agent/pull/12251): contributed to the Gemini auth regression fix.
 - [**Hermes Agent #12224**](https://github.com/NousResearch/hermes-agent/issues/12224): contributed the WhatsApp formatting issue and expected behavior.
 - [**gbrain #89**](https://github.com/garrytan/gbrain/pull/89): contributed testing notes on Gemini embedding support.
 
@@ -64,7 +64,7 @@ Long-form notes on solo technical founding, founder-led sales, agent workflows, 
 - [**gstack, CLAUDE.md, and founder coordination**](https://prasad.tech/blog/gstack-solo-builder.html)
 - [**Technical founders sell through diagnosis**](https://prasad.tech/blog/technical-founder-sales.html)
 - [**Selling the workflow before the software**](https://prasad.tech/blog/selling-before-building.html)
-- [**Mainteny's first version took three months**](https://prasad.tech/blog/mvp-three-months.html)
+- [**How to build the first version of a startup product**](https://prasad.tech/blog/mvp-three-months.html)
 - [**What fundraising asks of a CTO**](https://prasad.tech/blog/raising-seed-round.html)
 - [**Event ROI is a handoff problem**](https://prasad.tech/blog/event-marketing-roi.html)
 - [**SnowOptix: the side project that led to Luminik**](https://prasad.tech/blog/snowflake-cost-optimization.html)
