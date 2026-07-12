@@ -18,33 +18,33 @@
 
 I am building the company hands-on: product, engineering, early sales, customer work, and the operating cadence around it. My bias is to sell before building, work alongside customers, and build repeated workflows into product.
 
-The public engineering side of that work is [**Alfred OS**](https://github.com/luminik-io/alfred-os), an open-source runner for Claude Code and Codex tasks in isolated git worktrees.
+The public engineering side of that work is [**Alfred**](https://github.com/luminik-io/alfred), an open-source framework that runs fleets of coding agents on Claude Code and Codex. It runs Luminik's engineering every day; in a 30-day window (Jun to Jul 2026) the fleet merged 265 agent-authored PRs across 10 repos, with human review on every merge. Docs at [alfred.luminik.io](https://alfred.luminik.io).
 
 ## What I've shipped before
 
-- **Aura at Bain Founder's Studio**: PE due-diligence software. Took it from 0 to `$3.6M ARR` in `18 months` while the engineering team grew from five to thirty-three.
+- **Aura at Bain Founder's Studio**: PE due-diligence software. Took it from 0 to `$3.6M ARR` in `15 months` while the engineering team grew from five to thirty-three.
 - **Mainteny**: co-founded the European field-service SaaS company. Built the initial product, worked directly with early customers, helped raise a `$2.7M seed`, and helped build a high-performing product and engineering team.
-- **SnowOptix**: Snowflake cost-optimization work that entered Snowflake's Native App Accelerator and led to the customer discovery that became Luminik.
+- **SnowOptix**: Snowflake cost optimization built on `ACCOUNT_USAGE` system tables, using Snowflake Cortex and Snowpark Container Services, distributed as a Snowflake Native App. Entered Snowflake's Startup Accelerator, and the customer discovery behind it became Luminik.
 - **BlueJeans**: backend engineer on video conferencing, starting in 2014. My first deep exposure to a scaled engineering organization.
 
 ## How I work
 
 I like work where the distance between customer conversation, product decision, and shipped code is short. I have led teams as they grew from founding groups into larger engineering orgs. The parts I care about are clear ownership, direct customer context, strong engineering standards, and a steady product rhythm.
 
-At Luminik, I stay close to the product and the sales work while using agents for bounded engineering and operations tasks. They help with repository checks, tests, summaries, and draft engineering changes. I decide product direction, review what ships, and handle customer commitments myself.
+At Luminik, I stay close to the product and the sales work while an agent fleet on Alfred carries the day-to-day engineering: specs-driven planning, isolated git worktrees, automated PR review, and approval gates. I decide product direction, review every merge, and handle customer commitments myself.
 
 | Area | What I stay close to |
 | --- | --- |
 | Product | Customer workflows, product shape, architecture, and release quality. |
 | Sales | Founder-led discovery, objections, onboarding, and buyer follow-up. |
 | Team building | Hiring, standards, ownership, operating cadence, and technical direction. |
-| Agents | Scoped branches, checks, summaries, and review discipline. |
-| Writing | Public notes on product, sales, agent infrastructure, and zero-to-one work. |
+| Agents | Specs, worktree isolation, PR review, evals, memory, and spend caps. |
+| Writing | Public notes on AI enablement, agents in production, and zero-to-one work. |
 
 ## Public work
 
-- [**Alfred OS**](https://github.com/luminik-io/alfred-os): open-source runner for Claude Code and Codex tasks in separate git worktrees.
-- [**prasad.tech**](https://prasad.tech): writing on solo technical founding, founder-led sales, agent workflows, event pipeline systems, and zero-to-one product work.
+- [**Alfred**](https://github.com/luminik-io/alfred): open-source framework for running fleets of coding agents on Claude Code and Codex ([alfred.luminik.io](https://alfred.luminik.io)).
+- [**prasad.tech**](https://prasad.tech): writing on AI enablement, agents in production, founder-led sales, and zero-to-one product work.
 - [**Luminik site**](https://www.luminik.io): public company site for the event pipeline platform.
 
 ## Recent open source work
@@ -57,19 +57,19 @@ While setting up the agent stack, I contributed fixes and repros to tools I depe
 
 ## Recent writing
 
-Long-form notes on solo technical founding, founder-led sales, agent workflows, and zero-to-one product work.
+Long-form notes on AI enablement, agents in production, founder-led sales, and zero-to-one product work.
 
-- [**Alfred: how I run repeated work as a solo founder**](https://prasad.tech/blog/alfred-solo-founder-operating-system.html)
-- [**Separating agent work from founder work**](https://prasad.tech/blog/dedicated-mac-mini-solo-startup.html)
-- [**gstack, CLAUDE.md, and founder coordination**](https://prasad.tech/blog/gstack-solo-builder.html)
-- [**Technical founders sell through diagnosis**](https://prasad.tech/blog/technical-founder-sales.html)
-- [**Selling the workflow before the software**](https://prasad.tech/blog/selling-before-building.html)
-- [**How to build the first version of a startup product**](https://prasad.tech/blog/mvp-three-months.html)
-- [**What fundraising asks of a CTO**](https://prasad.tech/blog/raising-seed-round.html)
-- [**Event ROI is a handoff problem**](https://prasad.tech/blog/event-marketing-roi.html)
-- [**SnowOptix: the side project that led to Luminik**](https://prasad.tech/blog/snowflake-cost-optimization.html)
-- [**The real cost of solo product engineering in 2026**](https://prasad.tech/blog/building-alone-in-2026.html)
-- [**Building a $3.6M ARR product inside Bain**](https://prasad.tech/blog/zero-to-one-bain.html)
+- [**A field guide to adopting AI in engineering**](https://prasad.tech/blog/adopting-ai-in-engineering/)
+- [**Deploying a customer-support AI agent to production: testing it, then trusting the numbers**](https://prasad.tech/blog/deploying-a-customer-support-ai-agent-to-production/)
+- [**Run AI enablement as a P&L**](https://prasad.tech/blog/ai-enablement-pnl/)
+- [**Loops, harnesses, and memory: what it takes to run an autonomous coding fleet**](https://prasad.tech/blog/loops-harnesses-memory/)
+- [**How to build an LLM judge you can trust**](https://prasad.tech/blog/llm-judge-you-can-trust/)
+- [**Durable by design: two ways to survive failure in AI-native workflows**](https://prasad.tech/blog/durable-by-design/)
+- [**Three levers for cutting your coding agent's token bill, and how to tell which one works**](https://prasad.tech/blog/cut-coding-agent-token-bill/)
+- [**Writing the verifier is the real work in agent RL**](https://prasad.tech/blog/verifier-design-agent-rl/)
+- [**Technical founders can sell: here's how**](https://prasad.tech/blog/technical-founder-sales/)
+- [**Building a $3.6M ARR product inside a consulting firm**](https://prasad.tech/blog/zero-to-one-bain/)
+- [**Attributing Snowflake cost to the query that caused it**](https://prasad.tech/blog/snowflake-cost-optimization/)
 
 [All posts at prasad.tech](https://prasad.tech/blog/)
 
@@ -77,12 +77,12 @@ Long-form notes on solo technical founding, founder-led sales, agent workflows, 
 
 | Layer | Tools |
 | --- | --- |
-| Backend | Kotlin, Quarkus, Postgres, AWS ECS |
-| Frontend | React, TypeScript, Vite, Astro |
-| Mobile | Expo, React Native |
-| Data and integrations | Python, Nango, CRM and sequencing integrations |
-| AI and agents | Alfred OS, Claude Code, Codex, OpenAI Agents SDK, Vercel AI SDK, Langfuse, RAG, memory |
-| Workflow orchestration | Temporal, GitHub Actions, specs, branch isolation, release checks |
+| Backend | Kotlin, Quarkus, Python, FastAPI, Postgres, AWS ECS |
+| Frontend | React, TypeScript, Vite, Astro, Tailwind, shadcn/ui |
+| Mobile | Expo, React Native, on-device ML (ML Kit, Apple Vision) |
+| Data and integrations | Kafka, Snowflake (Native Apps, Cortex, Snowpark Container Services), Nango, CRM and sequencing integrations |
+| AI and agents | Alfred, Claude Code, Codex, MCP, LangChain, LangGraph, Langfuse, DeepEval, RAG (pgvector), evals and LLM-as-judge, agent memory |
+| Workflow orchestration | Hatchet, Temporal, DBOS, GitHub Actions, specs, branch isolation, release checks |
 | Leadership and operating | Hiring, product planning, customer discovery, team cadence, technical direction |
 | Writing | Technical essays, product notes, operator docs |
 
