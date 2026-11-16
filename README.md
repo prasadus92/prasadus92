@@ -14,26 +14,26 @@
 
 ## What I'm building now
 
-[**Luminik**](https://www.luminik.io) is event software for B2B teams. It connects attendee sourcing, enrichment, sequencing, capture on the floor and attribution in the systems sales and marketing teams already use. It is live, with enterprise customers in production.
+[**Luminik**](https://www.luminik.io) is event software for B2B teams. It connects attendee sourcing, enrichment, sequencing, capture on the floor and attribution in the CRM and sequencing tools sales and marketing teams use. It is live, with enterprise customers in production.
 
-I lead product, engineering and founder-led sales. Engineering runs as a small team plus AI coding agents, with automated review and CI gates and a person approving every merge. In 2026 that setup merged 12,000+ PRs across product and client work.
+I lead product, engineering and founder-led sales. Engineering runs as a small team plus AI coding agents behind automated review and CI gates, with a person approving every merge. In 2026 that setup merged 12,000+ PRs across product and client work.
 
 ## Open source
 
-- [**kannadi**](https://github.com/prasadus92/kannadi): Kannada text toolkit in Rust. Converts Nudi, Baraha and Akruti documents to Unicode and back, with a published accuracy table, a browser editor and a CLI.
-- [**Agent Files Index**](https://github.com/prasadus92/agent-files-index): open dataset of 42,106 AGENTS.md and CLAUDE.md files from popular GitHub repos, with a checker for your own. [Write-up](https://prasad.tech/blog/agent-files-index/).
+- [**kannadi**](https://github.com/prasadus92/kannadi): Kannada text toolkit in Rust. Converts Nudi, Baraha and Akruti documents to Unicode and back, with published test results, a browser editor and a CLI.
+- [**Agent Files Index**](https://github.com/prasadus92/agent-files-index): open dataset of 42,106 AGENTS.md, CLAUDE.md and SKILL.md files from popular GitHub repos, with a checker for your own. [Write-up](https://prasad.tech/blog/agent-files-index/).
 - [**ancient-algorithms**](https://github.com/prasadus92/ancient-algorithms): ancient mathematics in Python, tested against the worked examples the sources give. [Series](https://prasad.tech/ancient-algorithms/).
 - [**vertex-proxy**](https://github.com/prasadus92/vertex-proxy): a local proxy that lets Anthropic, Gemini and OpenAI API clients such as Claude Code use Google Cloud Vertex AI.
-- [**Alfred**](https://github.com/luminik-io/alfred): the runtime I built for teams of coding agents on Claude Code and Codex. Archived in November 2026; the repo stays readable.
+- [**Alfred**](https://github.com/luminik-io/alfred): ran Claude Code or Codex on a schedule to turn GitHub issues into reviewed pull requests. Archived in November 2026.
 
 Upstream contributions: [Hermes Agent #12251](https://github.com/NousResearch/hermes-agent/pull/12251), [Hermes Agent #12224](https://github.com/NousResearch/hermes-agent/issues/12224), [gbrain #89](https://github.com/garrytan/gbrain/pull/89).
 
 ## What I've shipped before
 
 - **Aura at Bain's Founder's Studio**: PE due-diligence and workforce analytics software. Took it from $0 to `$3.6M ARR` in `15 months` while the team grew from 5 to 33, reporting to a Bain Senior Partner. Aura was later acquired by Revelio Labs.
-- **Mainteny**: co-founded the European field-service SaaS company. Built the product and the team across 5 countries; the product and traction resulted in a `$2.7M seed`.
+- **Mainteny**: co-founded the European field-service SaaS company. Shipped the MVP in 3 months and built a 15-person engineering and design team across 5 countries; that traction drove a `$2.7M seed`.
 - **SnowOptix**: Snowflake cost optimization built on `ACCOUNT_USAGE`, Cortex and Snowpark Container Services, distributed as a Snowflake Native App. Entered Snowflake's Startup Accelerator; the customer discovery behind it became Luminik.
-- **BlueJeans**: backend engineer on video conferencing, from 2014.
+- **BlueJeans**: platform engineer on video conferencing, 2014 to 2016.
 
 ## Writing
 
