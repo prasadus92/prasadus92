@@ -4,7 +4,7 @@
 
 **CTO and engineering leader for applied AI and AI enablement** | Founder of [Luminik](https://www.luminik.io)
 
-12+ years shipping software | Oslo | 3-time technical co-founder | engineering, data science and product teams of up to 33
+12+ years shipping software | Oslo | 3-time technical co-founder
 
 [prasad.tech](https://prasad.tech) | [LinkedIn](https://linkedin.com/in/prasadus) | [Email](mailto:prasadus92@gmail.com)
 
