@@ -20,7 +20,7 @@ I lead product, engineering and founder-led sales. Engineering runs as a small t
 
 ## Open source
 
-- [**kannadi**](https://github.com/prasadus92/kannadi): Kannada text toolkit in Rust. Converts Nudi, Baraha and Akruti documents to Unicode and back, with published test results, a browser editor and a CLI.
+- [**Open Kannada**](https://openkannada.org): free, open-source tools so Kannada works properly on computers. Its first tool, [kannadi](https://github.com/openkannada/kannadi), converts documents in the old Nudi, Baraha, Akruti and Shree-Lipi fonts to Unicode and back, as a Rust library, CLI and browser editor. It also ships Kannada fonts and a [font shaping check](https://github.com/openkannada/font-health-action) for any font repo.
 - [**Agent Files Index**](https://github.com/prasadus92/agent-files-index): open dataset of 42,106 AGENTS.md, CLAUDE.md and SKILL.md files from popular GitHub repos, with a checker for your own. [Write-up](https://prasad.tech/blog/agent-files-index/).
 - [**ancient-algorithms**](https://github.com/prasadus92/ancient-algorithms): ancient mathematics in Python, tested against the worked examples the sources give. [Series](https://prasad.tech/ancient-algorithms/).
 - [**vertex-proxy**](https://github.com/prasadus92/vertex-proxy): a local proxy that lets Anthropic, Gemini and OpenAI API clients such as Claude Code use Google Cloud Vertex AI.
